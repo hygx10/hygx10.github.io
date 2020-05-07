@@ -195,7 +195,7 @@ input, select, textarea {
 			width: -ms-max-content;
 			width: max-content;
 			padding-bottom: 0.5rem;
-			margin: 0 0 2rem 0;
+			margin: 0 0 0rem 0;
 		}
 
 	h1 {
@@ -299,6 +299,7 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+
 
 /* Form */
 
@@ -696,7 +697,7 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 2.5rem 0;
+			margin: 1rem 0rem -1rem 0rem;
 			width: 100%;
 		}
 
@@ -707,7 +708,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.image.main {
-				margin: 2rem 0;
+			margin: 1rem 0rem -1rem 0rem;
 			}
 
 		}
@@ -715,7 +716,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.image.main {
-				margin: 1.5rem 0;
+			margin: 1rem 0rem -1rem 0rem;
 			}
 
 		}
@@ -936,10 +937,11 @@ input, select, textarea {
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
+
 	}
 
 	table {
-		margin: 0 0 2rem 0;
+		margin: 0rem 0 2rem 0;
 		width: 100%;
 	}
 
